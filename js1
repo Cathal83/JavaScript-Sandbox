@@ -15,7 +15,7 @@
 	<p>Double click the button to turn the page:
 	<input type="button" value="Green" ondblclick="document.bgColor='green'; alert('Background color is now green');"></p>
 	<p>Click down on the button to turn the page:
-	<input type="button" value="Orange"></p>
+	<input type="button" value="Orange" onmousedown="document.bgColor='orange'; alert('Background color is now orange');"></p>
 	<p>Release the mouse while on the button to turn the page:
 	<input type="button" value="Blue"></p>
 </form>
