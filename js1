@@ -17,7 +17,7 @@
 	<p>Click down on the button to turn the page:
 	<input type="button" value="Orange" onmousedown="document.bgColor='orange'; alert('Background color is now orange');"></p>
 	<p>Release the mouse while on the button to turn the page:
-	<input type="button" value="Blue"></p>
+	<input type="button" value="Blue" onmouseup="document.bgColor='blue'; alert('Background color is now blue');"></p>
 </form>
 <hr>
 <script type = "text/javascript">
