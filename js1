@@ -20,5 +20,7 @@
 	<input type="button" value="Blue"></p>
 </form>
 <hr>
+<script type = "text/javascript">
+	window.alert("The page has loaded.");
 </body>
 </html>
