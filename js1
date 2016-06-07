@@ -13,7 +13,7 @@
 	<p>Click the button to turn the page:
 	<input type="button" value="Red" onclick="document.bgColor='red'; alert('Background color is now red');"></p>
 	<p>Double click the button to turn the page:
-	<input type="button" value="Green"></p>
+	<input type="button" value="Green" ondbclick="document.bgColor='green'; alert('Background color is now green');"></p>
 	<p>Click down on the button to turn the page:
 	<input type="button" value="Orange"></p>
 	<p>Release the mouse while on the button to turn the page:
